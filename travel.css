@@ -209,11 +209,11 @@ img{
 
 
 /*=============== HOME ===============*/
-.home{
+.home {
     position: relative;
 }
 
-.home__bg{
+.home__bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -223,7 +223,7 @@ img{
     object-position: center;
 }
 
-.home__shadow{
+.home__shadow {
     position: absolute;
     top: 0;
     left: 0;
@@ -232,46 +232,46 @@ img{
     background: linear-gradient(180deg, hsla(0, 0%, 0%, 0) 58%, hsl(0, 0%, 0%) 78%);
 }
 
-.home__container{
+.home__container {
     position: relative;
     padding-top: 3rem;
     row-gap: 3rem;
 }
 
-.home__data{
+.home__data {
     text-align: center;
 }
 
-.home__subtitle{
+.home__subtitle {
     font-size: var(--h3-font-size);
     margin-bottom: .5rem;
 }
 
-.home__title{
+.home__title {
     font-size: var(--biggest-font-size);
     margin-bottom: 1rem;
 }
 
-.home__description{
+.home__description {
     margin-bottom: 2rem;
     color: var(--title-color);
 }
 
-.home__cards{
+.home__cards {
     grid-template-columns: 240px;
     justify-content: center;
 }
 
-.home__card{
+.home__card {
     position: relative;
     overflow: hidden;
 }
 
-.home__card-img{
+.home__card-img {
     transition: transform .4s;
 }
 
-.home__card-shadow{
+.home__card-shadow {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -280,7 +280,7 @@ img{
     background: linear-gradient(180deg, hsla(0, 0%, 0%, 0) 50%, hsl(0, 0%, 0%) 125%);
 }
 
-.home__card-title{
+.home__card-title {
     position: absolute;
     left: 1rem;
     bottom: 1rem;
@@ -288,7 +288,7 @@ img{
     z-index: 1;
 }
 
-.home__card:hover .home__card-img{
+.home__card:hover .home__card-img {
     transform: scale(1.2);
 }
 
@@ -319,6 +319,41 @@ img{
 
 
 /*=============== ABOUT ===============*/
+.about__container{
+    row-gap: 3rem;
+}
+
+.about__data{
+    text-align: center;
+}
+
+.about__description{
+    margin-bottom: 2rem;
+}
+
+.about__image{
+    position: relative;
+    justify-self: center;
+    overflow: hidden;
+}
+
+.about__img{
+    width: 300px;
+    transition: transform 0.4s;
+}
+
+.about__shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, hsla(0, 0%, 0%, 0) 50%, hsl(0, 0%, 0%) 125%);
+}
+
+.about__image:hover .about__img{
+    transform: scale(1.2);
+}
 
 
 /*=============== POPULAR ===============*/
