@@ -190,6 +190,10 @@ img{
 
 }
 
+.nav__link:hover::after{
+    width: 70%;
+}
+
 .nav__close{
     position: absolute;
     top: 1rem;
