@@ -11,4 +11,4 @@ Heres a Video for convenience
 
 
 
-![Responsive Travel Website - Google Chrome 2024-02-23 15-31-42](https://github.com/IkaMastera/Travel-Website/assets/112602982/f465521c-2f9a-480d-a551-b1261718e3d1)
+![Responsive Travel Website - Google Chrome 2024-02-23 15-44-19 (1)](https://github.com/IkaMastera/Travel-Website/assets/112602982/7e5d7df4-2edd-4eb3-8dc7-c1b39d7bf324)
